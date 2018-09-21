@@ -1,7 +1,7 @@
 {
-    "name": "vscode-ts-typesafe-react-redux-snippets",
-    "displayName": "TypeScript type safe React & Redux Snippets",
-    "description": "TypeScript VSCode snippets for fast, concise and type safe React & Redux projects. Features: Fully Typed Redux State, Actions, Reducers, Selectors and Epics; React Component Props, defaultProps, State, Containers with mapStateToProps & mapDispatchToProps.",
+    "name": "vscode-awesome-ts-react-redux-snippets",
+    "displayName": "Type safe React & Redux Snippets in TypeScript",
+    "description": "Features: Fully Typed Redux state, actions, reducers, selectors and epics; React component with props, defaultProps, state, defaultState; container components with mapStateToProps & mapDispatchToProps.",
     "version": "1.0.0",
     "publisher": "sandstorm",
     "engines": {
