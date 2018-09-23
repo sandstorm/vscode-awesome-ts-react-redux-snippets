@@ -4,6 +4,15 @@
     "description": "Features: Fully Typed Redux state, actions, reducers, selectors and epics; React component with props, defaultProps, state, defaultState; container components with mapStateToProps & mapDispatchToProps.",
     "version": "1.0.0",
     "publisher": "Sandstorm",
+    "author": {
+        "name": "Sandstorm Media"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/sandstorm/vscode-awesome-ts-react-redux-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sandstorm/vscode-awesome-ts-react-redux-snippets"
+    },
     "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.27.0"
