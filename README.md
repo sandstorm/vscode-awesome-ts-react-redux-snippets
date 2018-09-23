@@ -1,6 +1,6 @@
 # Type safe React & Redux Snippets in TypeScript
 
-Opinionated snippets with best practises we use at Sandstorm.
+Opinionated snippets with best practices we use at Sandstorm.
 
 ## Features
 
@@ -21,6 +21,16 @@ Fully Typed:
 - React Redux container
     - mapStateToProps
     - mapDispatchToProps
+
+## Usage
+In `*.ts` files:
+* `store` - Type safe Redux store.
+
+In `*.tsx` files:
+* `component` - Type safe PureComponent.
+* `container` - Type safe container component.
+* `story` - Type safe story for Storybook.
+* `test` - Type safe component test.
 
 ## Example (Component with defaultProps)
 
@@ -45,7 +55,7 @@ export type PickDefaultProps<Props, defaultPropsKeys extends keyof Props> = Read
 
 ## Known Issues
 
-* Redux-Saga does not work with `'@@martin_hotell/rex-tils'`'s action creator. But you can make it work though.
+* Redux-Saga does not work with `'@@martin_hotell/rex-tils'`'s action creator. You can fix this by not using Redux-Saga or by unfreezing your actions for Redux-Saga. (https://github.com/Hotell/rex-tils/issues/21)
 
 ## Release Notes
 
