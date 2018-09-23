@@ -3,7 +3,7 @@
     "displayName": "Type safe React & Redux Snippets in TypeScript",
     "description": "Features: Fully Typed Redux state, actions, reducers, selectors and epics; React component with props, defaultProps, state, defaultState; container components with mapStateToProps & mapDispatchToProps.",
     "version": "1.0.0",
-    "publisher": "sandstorm",
+    "publisher": "Sandstorm",
     "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.27.0"
