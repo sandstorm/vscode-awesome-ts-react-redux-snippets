@@ -2,6 +2,8 @@
 
 Opinionated snippets with best practices we use at Sandstorm.
 
+> This extension complements our [Kickstart guide](https://sandstorm.github.io/typescript-react-app-kickstart-guide/) for React-Redux-Apps written in TypeScript.
+
 ## Features
 
 Fully Typed:
@@ -42,9 +44,13 @@ Below is a list of all available snippets and the triggers of each one. The **â‡
 
 ## Requirements
 
-**Important:** We use a type definition for picking default props that doesn't come with react's typings.
-You'll either have to include this declaration somewhere in your code base or define your default props in another way. If you finde a better, more elegant or just cooler way to type defaultProps, let us know :)
+These snippets may only make sense if used in the opinionated dev environment described in our [Kickstart guide](https://sandstorm.github.io/typescript-react-app-kickstart-guide/).
 
+We highly recommend to check it out!
+
+>**Important:** We use a type definition for picking default props that doesn't come with react's typings.
+>You'll either have to include this declaration somewhere in your code base or define your default props in another way. If you finde a better, more elegant or just cooler way to type defaultProps, let us know :)
+>
 > Put this somewhere in your code base (e.g. `/types/defaultProps.d.ts`)
 ```ts
 // Type definition for React component's defaultProps
@@ -57,15 +63,7 @@ export type PickDefaultProps<Props, defaultPropsKeys extends keyof Props> = Read
 
 ## Known Issues
 
-* Redux-Saga does not work with `'@@martin_hotell/rex-tils'`'s action creator. You can fix this by not using Redux-Saga or by unfreezing your actions for Redux-Saga. (https://github.com/Hotell/rex-tils/issues/21)
+* Redux-Saga does not work with `'@martin_hotell/rex-tils'`'s action creator. You can fix this by not using Redux-Saga or by unfreezing your actions for Redux-Saga. (https://github.com/Hotell/rex-tils/issues/21)
 
 ## License
 MIT
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release
