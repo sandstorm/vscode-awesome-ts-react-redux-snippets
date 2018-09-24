@@ -16,21 +16,23 @@ Fully Typed:
     - defaultProps
     - state
     - defaultState
-    - test
-    - storybook
+- React component test
+- React component storybook
 - React Redux container
     - mapStateToProps
     - mapDispatchToProps
 
-## Usage
-In `*.ts` files:
-* `store` - Type safe Redux store.
+## Snippets
 
-In `*.tsx` files:
-* `component` - Type safe PureComponent.
-* `container` - Type safe container component.
-* `story` - Type safe story for Storybook.
-* `test` - Type safe component test.
+Below is a list of all available snippets and the triggers of each one. The **⇥** means the `TAB` key.
+
+| Trigger  | Content |
+| -------: | ------- |
+| `component→` | `Type safe PureComponent` |
+| `story→`| `Type safe story for Storybook` |
+| `test→`| `Type safe component test` |
+| `container→` | `Type safe container component` |
+| `store→` | `Type safe Redux store` |
 
 ## Example (Component with defaultProps)
 
@@ -56,6 +58,9 @@ export type PickDefaultProps<Props, defaultPropsKeys extends keyof Props> = Read
 ## Known Issues
 
 * Redux-Saga does not work with `'@@martin_hotell/rex-tils'`'s action creator. You can fix this by not using Redux-Saga or by unfreezing your actions for Redux-Saga. (https://github.com/Hotell/rex-tils/issues/21)
+
+## License
+MIT
 
 ## Release Notes
 
