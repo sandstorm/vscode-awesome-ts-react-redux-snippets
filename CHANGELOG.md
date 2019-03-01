@@ -3,7 +3,13 @@ All notable changes to the "vscode-awesome-ts-react-redux-snippets" extension wi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [1.0.1..3] - 2018-09-24
+## [2.0.0] - 2019-03-01
+- **breaking:** now using `@sandstormmedia/react-redux-ts-utils` instead of `@martin_hotell/rex-tils`
+- removed `readonly` keywords in `interface` definitions
+- added newlines at the end of snippet
+- some code style enhancements
+
+## [1.0.1..5] - 2018-09-24
 ### Added
 - fixed typos
 - improved clarity in Readme
