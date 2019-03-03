@@ -1,4 +1,5 @@
 # Type safe React & Redux Snippets in TypeScript
+[![VSCode Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/Sandstorm.vscode-awesome-ts-react-redux-snippets.svg?label=VSCode%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=Sandstorm.vscode-awesome-ts-react-redux-snippets)
 
 Opinionated snippets with best practices we use at Sandstorm.
 
