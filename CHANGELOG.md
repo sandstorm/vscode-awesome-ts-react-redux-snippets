@@ -3,6 +3,18 @@ All notable changes to the "vscode-awesome-ts-react-redux-snippets" extension wi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.1.0] - 2019-03-15
+- Use synthetic default exports, e.g.:
+    ```ts
+    import * as React from 'react';
+    ```
+    to
+    ```ts
+    import React from 'react';
+    ```
+- Use `type` rather than `interface` when applicable
+- Slightly update `test` snippet
+
 ## [2.0.0] - 2019-03-01
 - **breaking:** now using `@sandstormmedia/react-redux-ts-utils` instead of `@martin_hotell/rex-tils`
 - removed `readonly` keywords in `interface` definitions
