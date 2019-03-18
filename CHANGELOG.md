@@ -3,6 +3,10 @@ All notable changes to the "vscode-awesome-ts-react-redux-snippets" extension wi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [2.1.1] - 2019-03-18
+- Bugfix:
+    - use comma instead of semi-colon in type definitions
+
 ## [2.1.0] - 2019-03-15
 - Use synthetic default exports, e.g.:
     ```ts

@@ -13,7 +13,7 @@
 			"// State",
 			"//",
 			"export type ${1:StoreName}State = Readonly<{",
-			"\ttemplate?: string;",
+			"\ttemplate?: string,",
 			"}>;",
 			"\r",
 			"const initialState: ${1:StoreName}State = {",

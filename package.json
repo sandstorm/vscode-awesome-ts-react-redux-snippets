@@ -2,7 +2,7 @@
     "name": "vscode-awesome-ts-react-redux-snippets",
     "displayName": "Type safe React & Redux Snippets in TypeScript",
     "description": "Features: Fully Typed Redux state, actions, reducers, selectors and epics; React component with props, defaultProps, state, defaultState; container components with mapStateToProps & mapDispatchToProps.",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "publisher": "Sandstorm",
     "author": {
         "name": "Sandstorm Media"
